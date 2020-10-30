@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS etudiants (
+    id INT(10) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
+    nom VARCHAR(100) NOT NULL,
+    departement VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
